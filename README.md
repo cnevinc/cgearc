@@ -1,6 +1,6 @@
 cgearc
 ======
-
+<pre>
 Repo for http://cgearc.com
 
 目前功能
@@ -11,3 +11,4 @@ Repo for http://cgearc.com
 5. 最多人購買建議
 6. 後台管理功能(帳務、報關、對帳、出貨)
 7. 會員註冊
+</pre>
