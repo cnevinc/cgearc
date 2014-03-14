@@ -1,0 +1,28 @@
+application: outdoor-gear
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+
+- url: /ckeditor
+  static_dir: ckeditor
+
+- url: /img
+  static_dir: img
+
+- url: /bootstrap
+  static_dir: bootstrap
+  
+- url: /plus
+  static_dir: plus  
+  
+- url: /(.*)\.php$
+  script: \1.php
+
+- url: /.*
+  script: index.php
+
+
+  
+  
